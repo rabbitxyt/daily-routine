@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4001/basic-site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/basic-site/" rel="alternate" type="text/html" /><updated>2017-10-18T15:46:01-04:00</updated><id>http://localhost:4001/basic-site/</id><title type="html">A starting point</title><subtitle>My first self-built website and testing ground.</subtitle><entry><title type="html">添加照片</title><link href="http://localhost:4001/basic-site/2017/10/10/image-gallery.html" rel="alternate" type="text/html" title="添加照片" /><published>2017-10-10T22:03:08-04:00</published><updated>2017-10-10T22:03:08-04:00</updated><id>http://localhost:4001/basic-site/2017/10/10/image-gallery</id><content type="html" xml:base="http://localhost:4001/basic-site/2017/10/10/image-gallery.html">&lt;p&gt;今天找到了不错的image gallery的代码，效果参见本网站右上角 Image Gallery&lt;/p&gt;
+
+&lt;p&gt;下载链接：&lt;a href=&quot;https://github.com/opieters/jekyll-image-gallery-example/tree/gh-pages&quot; target=&quot;_blank&quot;&gt;github code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;博客文章链接：&lt;a href=&quot;https://olivierpieters.be/blog/2016/02/26/creating-a-jekyll-image-gallery&quot; target=&quot;_blank&quot;&gt;blog post&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;提纲：
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;creating-the-gallery-data&quot;&gt;Creating the Gallery Data&lt;/h3&gt;
+
+&lt;p&gt;In &lt;code class=&quot;highlighter-rouge&quot;&gt;_data&lt;/code&gt; directory:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a set of e.g. 24MP, 12MP, 6MP, 3MP and 1MP pictures&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Feed to a Python script and generate the YAML data&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can add title and caption to a specific picture&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;creating-the-html-page&quot;&gt;Creating the HTML Page&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Define &lt;code class=&quot;highlighter-rouge&quot;&gt;gallery.html&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Define &lt;code class=&quot;highlighter-rouge&quot;&gt;gallery-layout.html&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;updating-the-html-head&quot;&gt;Updating the HTML Head&lt;/h3&gt;
+
+&lt;h3 id=&quot;creating-a-gallery-overview-page&quot;&gt;Creating a Gallery Overview Page&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create &lt;code class=&quot;highlighter-rouge&quot;&gt;overview.yml&lt;/code&gt; in the &lt;code class=&quot;highlighter-rouge&quot;&gt;data&lt;/code&gt; folder&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;adding-some-styling-with-scss&quot;&gt;Adding Some Styling with SCSS&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create &lt;code class=&quot;highlighter-rouge&quot;&gt;gallery.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">今天找到了不错的image gallery的代码，效果参见本网站右上角 Image Gallery</summary></entry><entry><title type="html">入门教程</title><link href="http://localhost:4001/basic-site/2017/10/03/tutorial.html" rel="alternate" type="text/html" title="入门教程" /><published>2017-10-03T19:23:08-04:00</published><updated>2017-10-03T19:23:08-04:00</updated><id>http://localhost:4001/basic-site/2017/10/03/tutorial</id><content type="html" xml:base="http://localhost:4001/basic-site/2017/10/03/tutorial.html">&lt;blockquote&gt;
+  &lt;p&gt;好的开始是成功的一半。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这是我制作这个简易版个人主页参考的教程：&lt;a href=&quot;https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot; target=&quot;_blank&quot;&gt;Building a static website with Jekyll and GitHub Pages&lt;/a&gt;。下面附上一些文章内的导航链接。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#installing-dependencies-&quot; target=&quot;_blank&quot;&gt;Installing dependencies&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#setting-up-jekyll-&quot; target=&quot;_blank&quot;&gt;Setting up Jekyll&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new &lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#running-a-website-locally-&quot; target=&quot;_blank&quot;&gt;Running a website locally&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve --watch&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#tweaking-the-settings-&quot; target=&quot;_blank&quot;&gt;Tweaking the settings&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#writing-pages-and-posts-&quot; target=&quot;_blank&quot;&gt;Writing pages and posts&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#hosting-on-github-pages-&quot; target=&quot;_blank&quot;&gt;Hosting on GitHub Pages&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;Add a new branch named &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">好的开始是成功的一半。</summary></entry></feed>

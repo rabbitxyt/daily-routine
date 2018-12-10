@@ -1,0 +1,23 @@
+title: Daily Routine
+email: #
+description: >-
+  My daily rountine record.
+baseurl: "/daily-routine"
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: #
+github_username:  rabbitxyt
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed 
+defaults:
+  -
+    scope:
+      path: "image-gallery"
+    values:
+      permalink: /:path/:basename:output_ext
+
+
+port: 4001
