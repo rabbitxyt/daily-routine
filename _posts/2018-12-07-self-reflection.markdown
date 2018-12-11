@@ -3,8 +3,7 @@ layout: post
 title: Daily Routine - Day 1
 date: 2018-12-07 09:00:00 -0000
 description: self reflection
-img: time.jpg
-tags: [个人成长]
+
 ---
 
 这一阵子把注意力都放在微信公众号上了，没有怎么来更新网站。

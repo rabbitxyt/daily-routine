@@ -4,8 +4,6 @@ description: >-
   My daily rountine record.
 baseurl: "/daily-routine"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: #
-github_username:  rabbitxyt
 
 # Build settings
 markdown: kramdown
@@ -20,4 +18,4 @@ defaults:
       permalink: /:path/:basename:output_ext
 
 
-port: 4001
+port: 4000

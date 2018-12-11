@@ -3,8 +3,7 @@ layout: post
 title: 温暖的句子
 date: 2018-12-08 19:00:00 -0000
 description: record
-img: friendship.gif
-tags: [聊天记录]
+
 ---
 
 近一周的聊天记录节选如下：

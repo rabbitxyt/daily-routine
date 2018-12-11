@@ -3,8 +3,7 @@ layout: post
 title: Daily Routine - Day 3
 date: 2018-12-09 09:00:00 -0000
 description: self reflection
-img: time.jpg
-tags: [个人成长]
+
 ---
 
 <b>9:00AM ～ 10:00AM，起床，刷牙，洗脸，吃早饭</b>

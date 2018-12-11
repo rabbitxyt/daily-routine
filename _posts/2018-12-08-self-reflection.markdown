@@ -3,8 +3,7 @@ layout: post
 title: Daily Routine - Day 2
 date: 2018-12-08 09:00:00 -0000
 description: self reflection
-img: time.jpg
-tags: [个人成长]
+
 ---
 
 

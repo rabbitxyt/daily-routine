@@ -1,89 +1,323 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4001/basic-site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/basic-site/" rel="alternate" type="text/html" /><updated>2017-10-18T15:46:01-04:00</updated><id>http://localhost:4001/basic-site/</id><title type="html">A starting point</title><subtitle>My first self-built website and testing ground.</subtitle><entry><title type="html">添加照片</title><link href="http://localhost:4001/basic-site/2017/10/10/image-gallery.html" rel="alternate" type="text/html" title="添加照片" /><published>2017-10-10T22:03:08-04:00</published><updated>2017-10-10T22:03:08-04:00</updated><id>http://localhost:4001/basic-site/2017/10/10/image-gallery</id><content type="html" xml:base="http://localhost:4001/basic-site/2017/10/10/image-gallery.html">&lt;p&gt;今天找到了不错的image gallery的代码，效果参见本网站右上角 Image Gallery&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/daily-routine/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/daily-routine/" rel="alternate" type="text/html" /><updated>2018-12-11T10:17:12+00:00</updated><id>http://localhost:4000/daily-routine/</id><title type="html">Daily Routine</title><subtitle>My daily rountine record.</subtitle><entry><title type="html">Daily Routine - Day 4</title><link href="http://localhost:4000/daily-routine/2018/12/10/self-reflection.html" rel="alternate" type="text/html" title="Daily Routine - Day 4" /><published>2018-12-10T09:00:00+00:00</published><updated>2018-12-10T09:00:00+00:00</updated><id>http://localhost:4000/daily-routine/2018/12/10/self-reflection</id><content type="html" xml:base="http://localhost:4000/daily-routine/2018/12/10/self-reflection.html">&lt;p&gt;&lt;b&gt;9:00AM ～ 10:00AM，起床，刷牙，洗脸，吃早饭&lt;/b&gt;&lt;/p&gt;
 
-&lt;p&gt;下载链接：&lt;a href=&quot;https://github.com/opieters/jekyll-image-gallery-example/tree/gh-pages&quot; target=&quot;_blank&quot;&gt;github code&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;（老公回家第一天，睡到9:30AM，刷牙，洗脸，面霜用完了，早饭吃了面包和牛奶）&lt;/p&gt;
 
-&lt;p&gt;博客文章链接：&lt;a href=&quot;https://olivierpieters.be/blog/2016/02/26/creating-a-jekyll-image-gallery&quot; target=&quot;_blank&quot;&gt;blog post&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;10:00AM ～ 10:30AM，规划一天的安排&lt;/b&gt;&lt;/p&gt;
 
-&lt;p&gt;提纲：
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;（没有按时进行这一步，早上把这系列日志巧妙地藏了起来，保持主页面的美观整洁）&lt;/p&gt;
 
-&lt;h3 id=&quot;creating-the-gallery-data&quot;&gt;Creating the Gallery Data&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;10:30PM ～ 12:00PM，看哈佛幸福课&lt;/b&gt;&lt;/p&gt;
 
-&lt;p&gt;In &lt;code class=&quot;highlighter-rouge&quot;&gt;_data&lt;/code&gt; directory:&lt;/p&gt;
+&lt;p&gt;（把幸福课 lecture 13 听完了）&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a set of e.g. 24MP, 12MP, 6MP, 3MP and 1MP pictures&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Feed to a Python script and generate the YAML data&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;You can add title and caption to a specific picture&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;12:00AM ～ 2:00PM，做饭，吃饭，洗碗&lt;/b&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;creating-the-html-page&quot;&gt;Creating the HTML Page&lt;/h3&gt;
+&lt;p&gt;（中午和朋友聊了一会儿，吃了南瓜）&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Define &lt;code class=&quot;highlighter-rouge&quot;&gt;gallery.html&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Define &lt;code class=&quot;highlighter-rouge&quot;&gt;gallery-layout.html&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;2:00AM ～ 3:00AM，去公园锻炼&lt;/b&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;updating-the-html-head&quot;&gt;Updating the HTML Head&lt;/h3&gt;
+&lt;p&gt;（完成，拍了鸭子，松鼠，猫咪的皂片，手冻得通红）&lt;/p&gt;
 
-&lt;h3 id=&quot;creating-a-gallery-overview-page&quot;&gt;Creating a Gallery Overview Page&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;3:00PM ～ 4:30PM，整理笔记&lt;/b&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create &lt;code class=&quot;highlighter-rouge&quot;&gt;overview.yml&lt;/code&gt; in the &lt;code class=&quot;highlighter-rouge&quot;&gt;data&lt;/code&gt; folder&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;（匆匆整理完，没有发出去，想再补充一点关于自己的内容）&lt;/p&gt;
 
-&lt;h3 id=&quot;adding-some-styling-with-scss&quot;&gt;Adding Some Styling with SCSS&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;4:30PM ～ 5:30PM，去超市买菜&lt;/b&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Create &lt;code class=&quot;highlighter-rouge&quot;&gt;gallery.scss&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">今天找到了不错的image gallery的代码，效果参见本网站右上角 Image Gallery</summary></entry><entry><title type="html">入门教程</title><link href="http://localhost:4001/basic-site/2017/10/03/tutorial.html" rel="alternate" type="text/html" title="入门教程" /><published>2017-10-03T19:23:08-04:00</published><updated>2017-10-03T19:23:08-04:00</updated><id>http://localhost:4001/basic-site/2017/10/03/tutorial</id><content type="html" xml:base="http://localhost:4001/basic-site/2017/10/03/tutorial.html">&lt;blockquote&gt;
-  &lt;p&gt;好的开始是成功的一半。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;（没有买到米，买了一个披萨，油和一些面包，忘了买牛奶了）&lt;/p&gt;
 
-&lt;p&gt;这是我制作这个简易版个人主页参考的教程：&lt;a href=&quot;https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot; target=&quot;_blank&quot;&gt;Building a static website with Jekyll and GitHub Pages&lt;/a&gt;。下面附上一些文章内的导航链接。&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;6:30PM ～ 9:30PM，做饭，吃饭，洗碗&lt;/b&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;（和老公说好出去吃饭）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;9:30PM ～ 10:00PM，洗澡&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（PASS）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;10:00PM ～ 11:00PM，看电视&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（看了一集天龙八部）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;11:00PM ～ 12:00PM，刷牙，洗脸，睡觉&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（PASS，老公回家了反而没有一个人时候来得勤快）&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">9:00AM ～ 10:00AM，起床，刷牙，洗脸，吃早饭</summary></entry><entry><title type="html">Daily Routine - Day 3</title><link href="http://localhost:4000/daily-routine/2018/12/09/self-reflection.html" rel="alternate" type="text/html" title="Daily Routine - Day 3" /><published>2018-12-09T09:00:00+00:00</published><updated>2018-12-09T09:00:00+00:00</updated><id>http://localhost:4000/daily-routine/2018/12/09/self-reflection</id><content type="html" xml:base="http://localhost:4000/daily-routine/2018/12/09/self-reflection.html">&lt;p&gt;&lt;b&gt;9:00AM ～ 10:00AM，起床，刷牙，洗脸，吃早饭&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（起床，刷牙，洗脸，吃早饭，铺床，扫地，吸尘）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;10:00AM ～ 10:30AM，规划一天的安排&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（现在是10:19AM，今天老公回家，机动制定计划吧！）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;10:30AM ～ 11:30AM，去公园锻炼&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（今天的小美好是滑着滑板车背着孩子的父亲，和两个穿着大衣唱着“Nice to meet you”的小女孩，坐在有一些湿的长板凳上，看到旁边有一只红色的小鸟。回家老公正呼呼大睡）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;12:00AM ～ 2:00PM，做饭，吃饭，洗碗&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（煎了三文鱼，配甜辣酱，炒了一个蘑菇炒西兰花，煮了米饭，老公还没睡够所以自己先吃了午饭）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;2:00PM ～ 4:00PM，看哈佛幸福课，整理笔记&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成 lecture 12 插图，陪老公吃饭，他又说我像动物一样，I take it as compliment）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;4:00PM ～ 5:00PM，去超市买菜&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（今天买了彩椒，牛肉，葡萄，开心果，巧克力）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;5:00PM ～ 6:30PM，自由活动&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（休息，吃东西，听音乐，整理封面图）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;6:30PM ～ 8:00PM，做饭，吃饭，洗碗&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（青椒牛肉，香菇青菜，明天记得买米饭和油！）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;8:00PM ～ 9:30PM，自由活动&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（和老公看视频，小可爱，吐槽大会等）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;9:30PM ～ 10:00PM，洗澡&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;10:00PM ～ 11:00PM，刷牙，洗脸，睡觉&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成，和老公看电视）&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">9:00AM ～ 10:00AM，起床，刷牙，洗脸，吃早饭</summary></entry><entry><title type="html">温暖的句子</title><link href="http://localhost:4000/daily-routine/2018/12/08/screenshot.html" rel="alternate" type="text/html" title="温暖的句子" /><published>2018-12-08T19:00:00+00:00</published><updated>2018-12-08T19:00:00+00:00</updated><id>http://localhost:4000/daily-routine/2018/12/08/screenshot</id><content type="html" xml:base="http://localhost:4000/daily-routine/2018/12/08/screenshot.html">&lt;p&gt;近一周的聊天记录节选如下：&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#installing-dependencies-&quot; target=&quot;_blank&quot;&gt;Installing dependencies&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#setting-up-jekyll-&quot; target=&quot;_blank&quot;&gt;Setting up Jekyll&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;1) Summer：这个病，主要是遗传还是后天？&lt;br /&gt;
+王衡业：我的医生说，主要是遗传的。基因里就自带的。后天只是一个诱发环境。适当的环境下，就会激发出来这个病症。&lt;br /&gt;
+Emile：治好病就好了呢，大家不要太紧张+1&lt;br /&gt;
+你们看&lt;b&gt;可爱温顺的叨叨妹&lt;/b&gt;。。可以想像她是1型的吗😂相信医生相信现代医学吧()&lt;/p&gt;
 
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new &lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#running-a-website-locally-&quot; target=&quot;_blank&quot;&gt;Running a website locally&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve --watch&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#tweaking-the-settings-&quot; target=&quot;_blank&quot;&gt;Tweaking the settings&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#writing-pages-and-posts-&quot; target=&quot;_blank&quot;&gt;Writing pages and posts&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#hosting-on-github-pages-&quot; target=&quot;_blank&quot;&gt;Hosting on GitHub Pages&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2) 大天狗爸爸：感觉那个伐木累群的都是燥的，不是家属&lt;br /&gt;
+大天狗：没有啊，是家属&lt;br /&gt;
+大天狗爸爸：一言不合就是几百条&lt;/p&gt;
 
-    &lt;p&gt;Add a new branch named &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">好的开始是成功的一半。</summary></entry></feed>
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;3) Flica：&lt;b&gt;叨叨的公众号好棒啊&lt;/b&gt;&lt;br /&gt;
+我：是嘛嘻嘻&lt;br /&gt;
+麻将君：&lt;b&gt;叨叨公众号好棒！&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;4) 麻将君：鸭鸭！&lt;br /&gt;
+Polly：啊鸭子好可爱&lt;br /&gt;
+Flica：吸鸭鸭&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;5) 雨荷姐：写得好，你无法叫醒装睡的人，双相的孩子们自己如果没有动力，不调整心路，光靠药物也是很难的，这一点特别有感触&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;6) 你已被群主“主页菌（北京）”设置为&lt;b&gt;群管理员&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;7) 雨荷姐：给叨叨妹颁发&lt;b&gt;美帝优秀饲养员&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;8) Emile: 这个观点在叨叨妹最近看的哈佛积极心理学公开课也是有提及的，“写作有助于内心秩序的重建”&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;9) Polly：&lt;b&gt;从小到大我都喜欢学习能力强的人，比如这个公众号的主人&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;10) 深山里泉：&lt;b&gt;很荣幸认识您，慢慢向您学习&lt;/b&gt;&lt;br /&gt;
+静静的湖水：&lt;b&gt;您好叨叨妹&lt;/b&gt;🤝🤝🤝&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;11) 我：刚写了个日程💪💪💪&lt;br /&gt;
+灰：哇&lt;br /&gt;
+朙：&lt;b&gt;你每天都很活力啊&lt;/b&gt;&lt;br /&gt;
+灰：羡慕&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;12) 我：Linkedin 真烦人，我好久没工作了还是不停有人来加我&lt;br /&gt;
+朙：&lt;b&gt;说明你很厉害的&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;13) 雨荷姐：&lt;b&gt;叨叨妹的日程表看了不错哦&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;14) 我：圈圈有点像鲶鱼&lt;br /&gt;
+Flica：哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈鲶鱼&lt;br /&gt;
+我：那个胡子&lt;br /&gt;
+Flica：太形象了&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;15) 朙：一拳肉一拳蔬菜一拳主食 简单粗暴&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;16) 逗猫棒x18&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;17) 麻将君：&lt;b&gt;配图好好看 文章内容也很好&lt;/b&gt;&lt;br /&gt;
+瑾：&lt;b&gt;给配图点赞&lt;/b&gt;&lt;br /&gt;
+雨荷姐：&lt;b&gt;这篇很有指导性&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;18) 我：自己整理了印象就比较深刻&lt;br /&gt;
+主页菌：&lt;b&gt;叨叨妹越来越棒啦！&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;19) 雨荷姐：叨叨妹，建议你不但要做读书笔记，也可以做读后感啊，我看出来了&lt;b&gt;叨叨妹以前肯定是别人家的孩子&lt;/b&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">近一周的聊天记录节选如下：</summary></entry><entry><title type="html">Daily Routine - Day 2</title><link href="http://localhost:4000/daily-routine/2018/12/08/self-reflection.html" rel="alternate" type="text/html" title="Daily Routine - Day 2" /><published>2018-12-08T09:00:00+00:00</published><updated>2018-12-08T09:00:00+00:00</updated><id>http://localhost:4000/daily-routine/2018/12/08/self-reflection</id><content type="html" xml:base="http://localhost:4000/daily-routine/2018/12/08/self-reflection.html">&lt;p&gt;&lt;b&gt;9:00AM ～ 10:00AM，起床，刷牙，洗脸，吃早饭&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（九点起床，刷牙，洗脸，护肤，吃面包，喝牛奶，和爸妈、朋友聊天）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;10:00AM ～ 10:30AM，规划一天的安排&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（今天的规划和昨天相似，用时五分钟。吃药经常会被橙汁呛到也是醉了；洗了眼镜，视线豁然开朗）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;10:30PM ～ 11:30PM，去公园锻炼&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（运动，生命中最重要的事。今天看到了一个很帅气的大叔，和一只欢脱地奔跑的狗，还经常跑出去一段之后会看看后面的主人，特别有活力；公园里还有好几个跑步的人，很棒！回家后清洁了一下足浴盆，下午有人来取）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;12:00PM ～ 2:00PM，做饭，吃饭，洗碗&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（吃了一个面包。烤红薯 12:15PM ～ 1:15PM，烤三文鱼 Done，泡银耳，做红枣银耳羹）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;2:00AM ～ 5:00AM，看哈佛幸福课，整理笔记&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（困困的，把 lecture 12 下半集看完，最后讲到了《死亡诗社》中的 carpe diem，好电影，值得二刷！）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;5:00PM ～ 6:00PM，去超市买菜&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（买了面包，牛奶，水果，蔬菜，鱼）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;6:00PM ～ 8:00PM，做饭，吃饭，洗碗&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（洗碗，继续困，看漫画，吃饼干，玉米，菠菜，贝壳，感觉自己吃得好多）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;8:00PM ～ 9:30PM，自由活动&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（清理一下手机照片，只整理了一小部分，推荐每晚整理一下）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;9:30PM ～ 10:00PM，洗澡&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（洗澡那么舒服的事我以前为什么那么排斥呢）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;10:00PM ～ 11:00PM，刷牙，洗脸，睡觉&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成，祝自己有一个好梦！）&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;雨荷姐让我写幸福课读后感，我在这里积累一点想法：&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;不要习以为常。尤其是像我们这样生病的人才能体会到，坚持起床刷牙是多么了不起的一件事。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;学会感恩。我现在每天坚持写下五件感恩的事。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;别人对我们的印象会影响到我们对自己的认知，所以表现得积极一点吧！这样才会给自己的潜意识正反馈。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;要让别人了解你，而不是认可你。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;给别人写的感恩的信，写完不寄出去也是对自己有益的。同理，对我来说，写完公众号就算没有收到反馈，我的内心也是感到愉悦的。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;制定计划并执行。习惯由自己培养。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;先写这么多啦！去睡觉了&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;老公说你今天做了什么好事，我会下意识的排斥，因为我没有做好事，会联想到他听完之后不开心，教育我，我也不开心。这里涉及到了3M中的夸张。但其实他并没有恶意，如果我心态正确，就连刷牙洗脸都对我来说是今天做的一件好事。我觉得现在的我有能力回答这个问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;今天早上刷牙洗脸涂面霜了。因为老公出差回来的关系还铺了床。我以前不理解家里老人为什么那么勤快，爱干净，我自己很邋遢。但是换一个角度，每个人都喜欢和干干净净的人做朋友啊！只有你保持了干干净净的样子，别人才会给你正反馈，这个人是个爱干净的人，才会有良性循环。说到铺床，以前争分夺秒，又懒，觉得浪费时间。现在闲下来了，觉得说保持家里的整洁可以让自己和家人的心情变好，何乐而不为呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;首先感谢每一个阅读这篇文章的人。今天早上，我刚刚把信箱里收到的报纸丢到了垃圾箱。每个人的时间都是宝贵的，感谢你愿意抽空来听我叨叨，也希望我能带给你一点帮助。&lt;/p&gt;</content><author><name></name></author><summary type="html">9:00AM ～ 10:00AM，起床，刷牙，洗脸，吃早饭</summary></entry><entry><title type="html">Daily Routine - Day 1</title><link href="http://localhost:4000/daily-routine/2018/12/07/self-reflection.html" rel="alternate" type="text/html" title="Daily Routine - Day 1" /><published>2018-12-07T09:00:00+00:00</published><updated>2018-12-07T09:00:00+00:00</updated><id>http://localhost:4000/daily-routine/2018/12/07/self-reflection</id><content type="html" xml:base="http://localhost:4000/daily-routine/2018/12/07/self-reflection.html">&lt;p&gt;这一阵子把注意力都放在微信公众号上了，没有怎么来更新网站。&lt;/p&gt;
+
+&lt;p&gt;最近看哈佛幸福课，提到人是一定限度的自律的，但是我们可以通过例行公事来获得成功和幸福感。&lt;/p&gt;
+
+&lt;p&gt;所以决定给自己制定每日计划，并努力执行，就从今天开始。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;9:00AM ～ 10:00AM，起床，刷牙，洗脸，吃早饭&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成，在床上看手机，到将近十点才起来）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;10:00AM ～ 10:30AM，规划一天的安排&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成，今天是第一天决定这么做，写计划用了一些时间，磨蹭到十一点）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;10:30AM ～ 12:00AM，看哈佛幸福课，整理笔记&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成，看了一个半小时，找了些图片，初步完成了 lecture 11 上篇的排版，整理了下篇的文稿）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;12:00AM ～ 2:00PM，做饭，吃饭，洗碗&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成，整理了厨房，吃了玉米，海鲈鱼，酸奶，在家属群聊了一会儿）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;2:00PM ～ 3:00PM，学习日语&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成，看完 Day2-1，今天先不打卡了，需要明天复习一遍，整理笔记）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;3:00PM ～ 4:00PM，去公园锻炼&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成，路上和老公打了电话，差不多步行一小时，看到很多可爱的狗狗）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;4:00PM ～ 5:00PM，去超市买菜&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成，发了公众号，买了蔬菜，水果，面包，牛奶，没有买可乐而是买了菠萝代替；吃了面包和菠萝）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;5:00PM ～ 7:00PM，自由活动&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成，更新了网站脚本，找了合适的文章封面，准备明天的公众号文章，和老公打电话）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;7:00PM ～ 8:00PM，做饭，吃饭，洗碗&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成，晚饭吃了番茄炒鸡蛋，三文鱼）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;8:00PM ～ 9:30PM，看哈佛幸福课，整理笔记&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成，lecture 12 看了一半）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;9:30PM ～ 10:00PM，洗澡&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成，洗头+洗澡用时20分钟）&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;10:00PM ～ 11:00PM，刷牙，洗脸，睡觉&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;（完成，打卡每天写下五件感恩的事，吃苹果，刷牙，洗脸，剪指甲，护肤）&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">这一阵子把注意力都放在微信公众号上了，没有怎么来更新网站。</summary></entry></feed>
